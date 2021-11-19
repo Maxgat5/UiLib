@@ -6,7 +6,7 @@ local Username = game:service("HttpService"):JSONDecode(game:HttpGet("https://Ap
 local Discord = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Maxgat5/Decode/main/JSON")).Discord
 local Youtube = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Maxgat5/Decode/main/JSON")).Youtube
 local Pastebin = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Maxgat5/Decode/main/JSON")).Pastebin
---Wait For No Nil / No Bugs
+--Wait For No Bugs
 repeat wait() until Subscribers ~= nil
 repeat wait() until TotalMembers ~= nil
 repeat wait() until TotalPastebinViews ~= nil
