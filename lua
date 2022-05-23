@@ -1,8 +1,8 @@
 --Credits
-getgenv().Subscribers = game:service("HttpService"):JSONDecode(game:HttpGet("https://Api.maxgat555.repl.co")).Subscribers
-getgenv().TotalMembers = game:service("HttpService"):JSONDecode(game:HttpGet("https://Api.maxgat555.repl.co")).TotalMembers
-getgenv().TotalPastebinViews = game:service("HttpService"):JSONDecode(game:HttpGet("https://Api.maxgat555.repl.co")).TotalPastebinViews
-getgenv().Username = game:service("HttpService"):JSONDecode(game:HttpGet("https://Api.maxgat555.repl.co")).Username
+getgenv().Subscribers = game:service("HttpService"):JSONDecode(game:HttpGet("https://Api1.maxgat555.repl.co")).Subscribers
+getgenv().TotalMembers = game:service("HttpService"):JSONDecode(game:HttpGet("https://Api1.maxgat555.repl.co")).TotalMembers
+getgenv().TotalPastebinViews = game:service("HttpService"):JSONDecode(game:HttpGet("https://Api1.maxgat555.repl.co")).TotalPastebinViews
+getgenv().Username = game:service("HttpService"):JSONDecode(game:HttpGet("https://Api1.maxgat555.repl.co")).Username
 getgenv().Discord = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Maxgat5/Decode/main/JSON")).Discord
 getgenv().Youtube = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Maxgat5/Decode/main/JSON")).Youtube
 getgenv().Pastebin = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Maxgat5/Decode/main/JSON")).Pastebin
